@@ -1,0 +1,232 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+p {
+  margin: 0; }
+
+.close {
+  margin: 10px; }
+
+label {
+  color: #ffffff; }
+
+.App form {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  position: fixed;
+  color: white;
+  align-items: center;
+  text-align: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 2px solid #000000;
+  border-radius: 25px;
+  background-color: #ffe655;
+  width: 500px;
+  height: 650px; }
+  .App form .form-title {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: row; }
+    .App form .form-title h2 {
+      text-align: center; }
+  .App form input {
+    color: white; }
+  .App form .terms {
+    margin-top: -10px; }
+    .App form .terms span {
+      text-align: center;
+      color: red;
+      font-size: 10px;
+      margin-top: -100px;
+      padding: 0px; }
+
+.btn-more_info {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  width: 231px;
+  height: 51px;
+  border-radius: 3px;
+  border: 1px solid #ffe655;
+  background-color: #ffe655; }
+  .btn-more_info p {
+    width: 192px;
+    color: #333333;
+    font-family: "Raleway - Semi Bold";
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 36px; }
+
+.btn_report {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  width: 350px;
+  height: 55px;
+  border: 1px solid #ead34e;
+  background-color: #ffe655; }
+  .btn_report p {
+    width: 194px;
+    color: #222222;
+    font-family: "Raleway - Semi Bold";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 59px; }
+
+#slider {
+  background: linear-gradient(rgba(32, 49, 99, 0.7), rgba(32, 49, 99, 0.7)), url(./img/1462.jpg) no-repeat center;
+  width: 100%;
+  height: 720px;
+  background-size: content; }
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+  .row #header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+    .row #header .rightSide {
+      width: 810px;
+      display: flex;
+      flex-direction: column; }
+      .row #header .rightSide .info {
+        box-sizing: border-box;
+        width: 100%;
+        height: 26px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        border-bottom: 1px solid white; }
+        .row #header .rightSide .info .email {
+          display: flex;
+          align-items: center;
+          justify-content: flex-end;
+          height: 26px;
+          color: #ffffff;
+          font-family: "Raleway - Semi Bold";
+          font-size: 24px;
+          font-weight: 400; }
+          .row #header .rightSide .info .email .email_text {
+            margin-left: 25px; }
+        .row #header .rightSide .info .vertical_line {
+          width: 1px;
+          height: 25px;
+          margin-left: 24px;
+          margin-right: 24px;
+          background-color: rgba(255, 255, 255, 0.24); }
+        .row #header .rightSide .info .phone {
+          display: flex;
+          align-items: center;
+          height: 26px;
+          color: #ffffff;
+          font-family: "Raleway - Semi Bold";
+          font-size: 24px;
+          font-weight: 400; }
+          .row #header .rightSide .info .phone .phone_text {
+            margin-left: 25px; }
+      .row #header .rightSide .menu_nav {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        width: 810px;
+        height: 26px;
+        color: #ffffff;
+        font-family: Raleway;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 13px;
+        text-transform: uppercase;
+        border-bottom: 1px solid white; }
+        .row #header .rightSide .menu_nav a {
+          margin-right: 15px; }
+  .row .row_down {
+    display: flex;
+    flex-direction: row; }
+    .row .row_down .main_slogan h2 {
+      width: 707px;
+      height: 87px;
+      color: #ffffff;
+      font-family: "Raleway - Semi Bold";
+      font-size: 35px;
+      font-weight: 400;
+      line-height: 53px; }
+    .row .row_down .main_slogan h3 {
+      margin-top: 35px;
+      width: 673px;
+      height: 82px;
+      color: #ffffff;
+      font-family: Raleway;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 33px; }
+    .row .row_down .plane_img {
+      width: 411px;
+      height: 752px; }
+  .row .slide-slogan .tittle-tattle {
+    width: 563px;
+    height: 73px; }
+    .row .slide-slogan .tittle-tattle p {
+      width: 563px;
+      height: 73px;
+      color: #333333;
+      font-family: "Raleway - Semi Bold";
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 27px; }
+      .row .slide-slogan .tittle-tattle p b {
+        font-family: Raleway;
+        font-size: 22px;
+        font-weight: 700; }
+  .row .slide-slogan .arrow {
+    padding-left: 400px;
+    margin-top: -250px; }
+  .row .daniel_kubach {
+    border-top: 1px solid #cfcfde;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+    .row .daniel_kubach .items {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between; }
+      .row .daniel_kubach .items .item_txt {
+        display: flex;
+        flex-direction: column;
+        align-items: center; }
+        .row .daniel_kubach .items .item_txt p {
+          margin-top: 15px;
+          color: #333333;
+          font-family: "Raleway - Semi Bold";
+          font-size: 20px;
+          font-weight: 400;
+          line-height: 27px;
+          text-transform: uppercase; }
+        .row .daniel_kubach .items .item_txt .item {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 119px;
+          height: 120px;
+          background: url("./icons/yellow_circle.png") no-repeat;
+          background-size: contain; }
+  .row #report-a-flight {
+    border-top: 1px solid #cfcfde;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
